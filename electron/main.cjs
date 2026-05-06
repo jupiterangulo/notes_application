@@ -9,7 +9,7 @@ function createWindow() {
     webPreferences: {
       nodeIntegration: false,
       contextIsolation: true,
-      preload: path.join(__dirname, 'preload.js'),
+      preload: path.join(__dirname, 'preload.cjs'),
     },
     titleBarStyle: 'hiddenInset', // Gives it that premium macOS look
     backgroundColor: '#0f1115',
