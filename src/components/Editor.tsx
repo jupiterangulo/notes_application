@@ -12,7 +12,6 @@ import {
   ListOrdered, 
   Table as TableIcon, 
   ExternalLink,
-  Plus,
   FileText,
   Network,
   Users,

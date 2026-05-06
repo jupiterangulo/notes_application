@@ -1,6 +1,6 @@
 import { Node, mergeAttributes } from '@tiptap/core';
 import { ReactNodeViewRenderer, NodeViewWrapper } from '@tiptap/react';
-import { CheckCircle2, Circle, Clock, User, Target, Plus, Trash2 } from 'lucide-react';
+import { Target, Plus, Trash2 } from 'lucide-react';
 
 const TrackerComponent = ({ node, updateAttributes }: any) => {
   const { title, tasks = [] } = node.attrs;
